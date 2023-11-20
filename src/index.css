@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Geometria", sans-serif;
+  min-width: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper {
+  width: 1440px;
+  max-width: 1440px;
+  padding: 20px;
+}
+
+.title {
+  color: #000;
+  font-family: "Geometria", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.btn {
+  padding: 14px 20px;
+  border-radius: 20px;
+  font-family: "Geometria", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.btn-no-active {
+  background: #f5f5f5;
+  color: #000;
+}
+
+.btn-active {
+  background: #77d256;
+  color: #fff;
+}
+
+.slick-dots {
+  position: absolute !important;
+  bottom: -12% !important;
+}
+.slick-dots li button:before {
+  color: #fff !important;
+  font-size: 12px !important;
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-wrapper {
+    padding: 10px;
+  }
+  .btn {
+    padding: 8px 13px;
+    border-radius: 15px;
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .slick-dots {
+    bottom: -30% !important;
+  }
+}
+
+.slick-dots li button:before {
+  color: #000 !important;
+}
+
+@font-face {
+  font-family: "Geometria";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria"), url("./assets/fonts/Geometria/Geometria.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-Italic"), url("./assets/fonts/Geometria/Geometria-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-Thin"), url("./assets/fonts/Geometria/Geometria-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-ThinItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-ThinItalic"), url("./assets/fonts/Geometria/Geometria-ThinItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-ExtraLight"), url("./assets/fonts/Geometria/Geometria-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-ExtraLightItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-ExtraLightItalic"),
+    url("./assets/fonts/Geometria/Geometria-ExtraLightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-Light"), url("./assets/fonts/Geometria/Geometria-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-LightItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-LightItalic"), url("./assets/fonts/Geometria/Geometria-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-Medium"), url("./assets/fonts/Geometria/Geometria-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-MediumItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-MediumItalic"), url("./assets/fonts/Geometria/Geometria-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-Bold"), url("./assets/fonts/Geometria/Geometria-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-BoldItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-BoldItalic"), url("./assets/fonts/Geometria/Geometria-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-ExtraBold"), url("./assets/fonts/Geometria/Geometria-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-ExtraBoldItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-ExtraBoldItalic"), url("./assets/fonts/Geometria/Geometria-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-Heavy"), url("./assets/fonts/Geometria/Geometria-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geometria-HeavyItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria-HeavyItalic"), url("./assets/fonts/Geometria/Geometria-HeavyItalic.woff") format("woff");
+}

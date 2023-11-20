@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "menus": {
+      "news": "Новости",
+      "promotions": "Акции",
+      "products": "Каталог",
+      "shops": "Магазины",
+      "contacts": "Контакты",
+      "bot": "Работа в Makro"
+    }
+  },
+
+  "home": {
+    "promotions": {
+      "title": "Актуальные акции",
+      "linkText": "все акции"
+    },
+    "products": {
+      "title": "Каталог",
+      "linkText": "полный список"
+    },
+    "shops": {
+      "title": "Наши магазины"
+    }
+  },
+
+  "promotions": {
+    "title": "Актуальные акции",
+    "linkText": "на главную"
+  },
+  "promotionsById": {
+    "title": "Акции",
+    "linkText": "на акции"
+  },
+  "offers": {
+    "title": "Оферты"
+  },
+  "products": {
+    "title": "Каталог",
+    "linkText": "на главную",
+    "activeTo": "актуально до"
+  },
+  "shops": {
+    "title": "Наши магазины",
+    "linkText": "на главную"
+  },
+  "news": {
+    "title": "Новости",
+    "linkText": "на главную",
+    "archive": "Архив новостей"
+  },
+  "newsById": {
+    "title": "Новости",
+    "linkText": "на главную"
+  },
+
+  "contact": {
+    "title": "Наши контакты",
+    "phone": "Телефон: +99871 205 1 205",
+    "address": "Адрес головного офиса: г. Ташкент, Яшнабадский р-н, ул. Махтумкули 134",
+    "phoneTelegram": "Обратная связь в Telegram: @Makrosupermarket",
+    "telegram": "Telegram канал: t.me/makrosupermarket_uz",
+    "instagram": "Instagram: instagram.com/makro_supermarket/",
+    "meta": "Facebook: fb.com/makromarket.uz"
+  },
+
+  "footer": {
+    "download": "Cкачивайте наше приложение",
+    "subscribe": "Подписывайтесь на наши соц. сети",
+    "download2": "Правила программы лояльности"
+  },
+
+  "month": {
+    "january": "Январь",
+    "february": "Февраль",
+    "march": "Март",
+    "april": "Апрель",
+    "may": "Май",
+    "june": "Июнь",
+    "july": "Июль",
+    "august": "Август",
+    "september": "Сентябрь",
+    "october": "Октябрь",
+    "november": "Ноябрь",
+    "december": "Декабрь"
+  },
+
+  "all": "Все",
+  "currency": "сум",
+  "map": "Карта",
+  "region": "Район",
+  "view": "Перейти"
+}

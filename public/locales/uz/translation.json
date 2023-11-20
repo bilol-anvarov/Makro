@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "menus": {
+      "news": "Yangiliklar",
+      "promotions": "Aksiyalar",
+      "products": "Katalog",
+      "shops": "Do'konlar",
+      "contacts": "Aloqa",
+      "bot": "Makroda ishlash"
+    }
+  },
+  "home": {
+    "promotions": {
+      "title": "Joriy aksiyalar",
+      "linkText": "barcha aksiyalar"
+    },
+    "products": {
+      "title": "Katalog",
+      "linkText": "To'liq ro'yxat"
+    },
+    "shops": {
+      "title": "Bizning do'konlarimiz"
+    }
+  },
+
+  "promotions": {
+    "title": "Joriy aksiyalar",
+    "linkText": "bosh sahifaga"
+  },
+  "promotionsById": {
+    "title": "Aksiyalar",
+    "linkText": "barcha aksiyalar"
+  },
+  "offers": {
+    "title": "Takliflar"
+  },
+  "products": {
+    "title": "Katalog",
+    "linkText": "To'liq ro'yxat",
+    "activeTo": "amal qilish muddati"
+  },
+  "shops": {
+    "title": "Bizning do'konlarimiz",
+    "linkText": "bosh sahifaga"
+  },
+  "news": {
+    "title": "Yangiliklar",
+    "linkText": "bosh sahifaga",
+    "archive": "Yangiliklar arxivi"
+  },
+
+  "contact": {
+    "title": "Biz bilan aloqa",
+    "phone": "Telefon: +99871 205 1 205",
+    "address": "Bosh ofis manzili: Toshkent sh., Yashnobod tumani, koʻch. Magtimguli 134",
+    "phoneTelegram": "Telegramda qayta aloqa: @Makrosupermarket",
+    "telegram": "Telegram kanal: t.me/makrosupermarket_uz",
+    "instagram": "Instagram: instagram.com/makro_supermarket/",
+    "meta": "Facebook: fb.com/makromarket.uz"
+  },
+
+  "footer": {
+    "download": "Ilovamizni yuklab oling",
+    "subscribe": "Ijtimoiy tarmoqlarimizga obuna bo'ling",
+    "download2": "Sodiqlik dasturi qoidalari"
+  },
+
+  "month": {
+    "january": "Yanvar",
+    "february": "Fevral",
+    "march": "Mart",
+    "april": "Aprel",
+    "may": "May",
+    "june": "Iyun",
+    "july": "Iyul",
+    "august": "August",
+    "september": "Sentyabr",
+    "october": "Oktyabr",
+    "november": "Noyabr",
+    "december": "Dekabr"
+  },
+
+  "all": "Barchasi",
+  "currency": "so'm",
+  "map": "Xarita",
+  "region": "Hudud",
+  "view": "Ko'rish"
+}
